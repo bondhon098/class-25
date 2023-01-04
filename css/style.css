@@ -1,0 +1,237 @@
+.header{
+    background: #f6f9fc;
+}
+.header-text{
+   margin: auto;
+   text-align: center;
+}
+.header-text h5{
+    color: #91abf3;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+.header-text h2{
+    color: #191d21;
+    text-transform: capitalize;
+}
+.header-text p{
+    color: #999796;
+    font-weight: 500;
+}
+.header-pricing{
+    display: flex;
+    justify-content: space-around;
+}
+.header-iteam{
+    width: 350px;
+    background: #ffffff;
+    box-shadow: 1px 2px 5px rgb(245, 220, 220);
+    margin: auto;
+    text-align: center;
+    transition: .5s;
+}
+.header-iteam:hover{
+    background: #3b6ef0;
+}
+.header-iteam h5{
+    color: #717277;
+    padding-top: 35px;
+    text-transform: capitalize;
+}
+.header-iteam h1{
+    color: #14181d;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 60px;
+    position: relative;
+}
+.header-iteam h1::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 23%;
+    height: 1px;
+    width: 180px;
+    background: #c6c8d1;
+}
+.header-iteam p{
+    color: #717277;
+    font-weight: 500;
+}
+.header-iteam a{
+    display: inline-block;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: white;
+    background: #0d6efd;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.header-iteam:hover a{
+    background: white;
+    color: #0d6efd;
+}
+.header-iteam a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #3265ee;
+    transition: .4s;
+}
+.header-iteam a:hover::after{
+    width: 100%;
+    z-index: -1;
+}
+.header-iteam a:hover{
+    color: white;
+}
+/* banner */
+.banner{
+    background: url(./free-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 100px 0px;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+.banner::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3164d1be;
+    z-index: -1;
+}
+.banner-text h5{
+    text-transform: uppercase;
+    color: #f7f8fd;
+    font-weight: 600;
+}
+.banner-text h1{
+    color: #f7f8fd;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative  ;
+}
+.banner-text h1::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 48%;
+    width: 50px;
+    height: 1px ;
+    background: white;
+}
+.banner-text p{
+    text-transform: capitalize;
+    color: #f7f8fd;
+    font-weight: 600;
+}
+.banner-text a{
+    display: inline-block;
+    text-decoration: none;
+    background: #ffffff;
+    color: #3b6ef0;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: 1px solid whitesmoke;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.banner-text a:hover{
+    color: #ffffff;
+}
+.banner-text a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #3b6ef0;
+    transition: .4s;
+}
+.banner-text a:hover::after{
+    width: 100%;
+    z-index: -1;
+}
+/* last section */
+.last{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background: #f8f9fa;
+}
+.last-one{
+    width: 600px;
+    background-color: #3763eb;
+    padding: 40px;
+    border-radius: 5px;
+}
+.last-one h2{
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+}
+.last-one p{
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 600;
+}
+.last-one form{
+    width: 290px;
+    display: inline-block;
+}
+.last-one form input{
+    border-radius: 25px;
+}
+.last-one a{
+    display: inline-block;
+    margin-left:20px ;
+    padding: 5px 10px;
+    background-color: #3763eb;
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 17px;
+}
+.last-two{
+    width: 360px;
+    background: #14181d;
+    margin-left: 35px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 1px 2px 5px rgb(182, 171, 171);
+}
+.last-two h4{
+    color: #565b56;
+    font-weight: 600;
+}
+.last-two a{
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 25px;
+    background: #0d6efd;
+    padding: 5px 10px;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
